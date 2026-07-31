@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>LAMPUTOGEL | Togel HK & Togel SYD Terpercaya</title>
+  <!-- Favicon -->
+  <link rel="icon" href="https://veldrive.com/jjM6E2Lu/FAVICON%20LAMPUTOGEL.png" type="image/png">
+  <!-- Font & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #ff8000;
+      color: #1e1e1e;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* ORANGE THEME */
+    .bg-orange-light {
+      background: #fceae0;
+    }
+
+    .text-orange {
+      color: #e35f0a;
+    }
+
+    .btn-orange {
+      background: #f15a0a;
+      color: #fff;
+      font-weight: 700;
+      padding: 16px 40px;
+      border-radius: 60px;
+      font-size: 1.25rem;
+      display: inline-block;
+      text-decoration: none;
+      box-shadow: 0 10px 20px -8px rgba(241, 90, 10, 0.4);
+      transition: all 0.2s ease;
+      border: none;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+    }
+
+    .btn-orange:hover {
+      background: #d14a00;
+      transform: scale(1.02);
+      box-shadow: 0 14px 24px -6px rgba(241, 90, 10, 0.5);
+    }
+
+    .btn-outline-orange {
+      background: transparent;
+      color: #e35f0a;
+      border: 2px solid #e35f0a;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 60px;
+      font-size: 1rem;
+      display: inline-block;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .btn-outline-orange:hover {
+      background: #e35f0a;
+      color: #fff;
+    }
+
+    /* HEADER */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
+      flex-wrap: wrap;
+    }
+
+    .logo img {
+      height: 48px;
+      width: auto;
+      max-width: 180px;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .nav-actions a {
+      font-weight: 600;
+      color: #1e1e1e;
+      text-decoration: none;
+    }
+
+    .nav-actions .daftar-link {
+      background: #f15a0a;
+      color: #fff;
+      padding: 10px 24px;
+      border-radius: 40px;
+      font-weight: 700;
+      box-shadow: 0 6px 12px rgba(241, 90, 10, 0.25);
+      transition: 0.2s;
+    }
+
+    .nav-actions .daftar-link:hover {
+      background: #d14a00;
+      transform: scale(1.02);
+    }
+
+    /* HERO */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 0 40px;
+      gap: 30px;
+    }
+
+    .hero-content {
+      flex: 1 1 45%;
+    }
+
+    .hero-content h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      line-height: 1.15;
+      color: #1e1e1e;
+    }
+
+    .hero-content h1 span {
+      color: #e35f0a;
+      background: #fde8d6;
+      padding: 0 12px;
+      display: inline-block;
+      border-radius: 12px;
+    }
+
+    .hero-content p {
+      font-size: 1.1rem;
+      margin: 24px 0 32px;
+      color: #2d2d2d;
+      max-width: 500px;
+    }
+
+    .hero-banner {
+      flex: 1 1 45%;
+      background: #fceae0;
+      border-radius: 32px;
+      overflow: hidden;
+      box-shadow: 0 16px 40px -12px rgba(0,0,0,0.15);
+    }
+
+    .hero-banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .hero-banner img:hover {
+      transform: scale(1.01);
+    }
+
+    .badge-orange {
+      background: #f15a0a;
+      color: #fff;
+      padding: 4px 16px;
+      border-radius: 60px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      display: inline-block;
+      margin-bottom: 14px;
+      letter-spacing: 0.3px;
+    }
+
+    /* STATS / KEYWORD SECTION */
+    .keyword-section {
+      background: #fceae0;
+      border-radius: 60px;
+      padding: 28px 32px;
+      margin: 30px 0 40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+    .keyword-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #1e1e1e;
+    }
+
+    .keyword-item i {
+      color: #e35f0a;
+      font-size: 1.8rem;
+    }
+
+    .keyword-item span {
+      background: #fff;
+      padding: 4px 18px;
+      border-radius: 60px;
+      color: #e35f0a;
+      font-weight: 800;
+    }
+
+    /* FEATURES */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+      margin: 40px 0 50px;
+    }
+
+    .feature-card {
+      background: #fff;
+      border-radius: 28px;
+      padding: 28px 20px;
+      text-align: center;
+      box-shadow: 0 10px 30px -10px rgba(0,0,0,0.05);
+      border: 1px solid #fce3d2;
+      transition: 0.2s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      border-color: #f15a0a;
+      box-shadow: 0 16px 36px -12px rgba(241, 90, 10, 0.15);
+    }
+
+    .feature-card i {
+      font-size: 2.6rem;
+      color: #e35f0a;
+      background: #fceae0;
+      padding: 16px;
+      border-radius: 60px;
+      margin-bottom: 16px;
+    }
+
+    .feature-card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+
+    .feature-card p {
+      color: #4a4a4a;
+      font-size: 0.95rem;
+    }
+
+    /* CTA */
+    .cta-box {
+      background: #f15a0a;
+      border-radius: 60px;
+      padding: 48px 40px;
+      margin: 40px 0 50px;
+      color: #fff;
+      text-align: center;
+      box-shadow: 0 20px 40px -12px rgba(241, 90, 10, 0.35);
+    }
+
+    .cta-box h2 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+
+    .cta-box p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      margin: 12px 0 28px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-box .btn-orange {
+      background: #fff;
+      color: #f15a0a;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+    }
+
+    .cta-box .btn-orange:hover {
+      background: #fef4ed;
+      color: #c94400;
+    }
+
+    /* FOOTER */
+    .footer {
+      text-align: center;
+      padding: 28px 0 32px;
+      border-top: 2px solid #fceae0;
+      margin-top: 20px;
+      color: #3d3d3d;
+    }
+
+    .footer .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin: 16px 0 14px;
+    }
+
+    .footer .footer-links a {
+      color: #3d3d3d;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+
+    .footer .footer-links a:hover {
+      color: #e35f0a;
+    }
+
+    .footer small {
+      display: block;
+      opacity: 0.7;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+      }
+
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-content p {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero-content h1 {
+        font-size: 2.3rem;
+      }
+
+      .keyword-section {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 40px;
+        padding: 24px 16px;
+      }
+
+      .cta-box {
+        padding: 36px 20px;
+        border-radius: 40px;
+      }
+
+      .cta-box h2 {
+        font-size: 1.8rem;
+      }
+
+      .features {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+      .hero-content h1 {
+        font-size: 2rem;
+      }
+      .btn-orange {
+        padding: 14px 32px;
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- NAV -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="https://veldrive.com/jjM6E2Lu/LOGO%20LAMPUTOGEL%20HIGH.png" alt="Logo LAMPUTOGEL" loading="lazy">
+      </div>
+      <div class="nav-actions">
+        <a href="https://lnkshort.net/lampu88" class="hide-mobile">TOGEL</a>
+        <a href="#daftar" class="daftar-link"><i class="fas fa-user-plus" style="margin-right: 6px;"></i> Daftar</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero" id="tentang">
+      <div class="hero-content">
+        <div class="badge-orange"><i class="fas fa-trophy" style="margin-right: 6px;"></i> Bandar Terpercaya</div>
+        <h1>
+          <span>LAMPUTOGEL</span> <br>
+          Togel HK & Togel SYD
+        </h1>
+        <p>
+          Nikmati pengalaman bermain <strong>Togel HK</strong> dan <strong>Togel SYD</strong> 
+          dengan pelayanan terbaik, hasil akurat, dan deposit termurah. 
+          Bergabunglah bersama ribuan pemain di <strong>LAMPUTOGEL</strong> – 
+          situs togel online paling gacor dan terpercaya.
+        </p>
+        <a href="https://lnkshort.net/lampu88" target="_blank" rel="noopener" class="btn-orange" id="daftar">
+          <i class="fas fa-rocket" style="margin-right: 10px;"></i> Daftar Sekarang
+        </a>
+      </div>
+      <div class="hero-banner">
+        <img src="https://veldrive.com/jjM6E2Lu/togel-hk-lamputogel.jpg" alt="Banner Daftar Togel" loading="lazy">
+      </div>
+    </div>
+
+    <!-- KEYWORD HIGHLIGHT -->
+    <div class="keyword-section">
+      <div class="keyword-item">
+        <i class="fas fa-fire"></i> <span>LAMPUTOGEL</span>
+      </div>
+      <div class="keyword-item">
+        <i class="fas fa-flag-checkered"></i> <span>Togel HK</span>
+      </div>
+      <div class="keyword-item">
+        <i class="fas fa-flag"></i> <span>Togel SYD</span>
+      </div>
+      <div class="keyword-item">
+        <i class="fas fa-star"></i> <span>Bandar TOGEL</span>
+      </div>
+    </div>
+
+    <!-- FEATURES / KEUNGGULAN -->
+    <div class="features">
+      <div class="feature-card">
+        <i class="fas fa-shield-alt"></i>
+        <h3>100% Terpercaya</h3>
+        <p>Lisensi resmi & sistem keamanan terenkripsi.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-clock"></i>
+        <h3>Hasil Tepat Waktu</h3>
+        <p>Live draw Togel HK & Togel SYD cepat dan akurat.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-wallet"></i>
+        <h3>Deposit Minim</h3>
+        <p>Mulai dari 10.000 Rupiah, semua kalangan bisa main.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-headset"></i>
+        <h3>Support 24/7</h3>
+        <p>Tim CS ramah siap membantu kapanpun.</p>
+      </div>
+    </div>
+
+    <!-- CTA UTAMA -->
+    <div class="cta-box">
+      <h2>🚀 Gabung Sekarang di <span style="background: #fff; color: #f15a0a; padding: 0 14px; border-radius: 60px;">LAMPUTOGEL</span></h2>
+      <p>
+        Dapatkan bonus deposit, cashback mingguan, dan kesempatan jackpot 
+        <strong>Togel HK</strong> & <strong>Togel SYD</strong> eksklusif.
+      </p>
+      <a href="https://lnkshort.net/lampu88" target="_blank" rel="noopener" class="btn-orange">
+        <i class="fas fa-arrow-right" style="margin-right: 10px;"></i> Daftar via Link Resmi
+      </a>
+      <div style="margin-top: 24px; font-size: 0.9rem; opacity: 0.85;">
+        <i class="fas fa-link"></i> link daftar: <strong>https://lnkshort.net/lampu88</strong>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="https://lnkshort.net/lampu88">LAMPUTOGEL</a>
+        <a href="https://lnkshort.net/lampu88">Daftar Togel HK</a>
+        <a href="https://lnkshort.net/lampu88">Daftar Togel SYD</a>
+        <a href="https://lnkshort.net/lampu88" target="_blank" rel="noopener">Link Alternatif</a>
+      </div>
+      <div style="display: flex; justify-content: center; gap: 16px; margin: 12px 0;">
+        <span style="background: #fceae0; padding: 4px 18px; border-radius: 60px; font-weight: 700; color: #e35f0a;">
+          <i class="fas fa-circle" style="font-size: 0.6rem; color: #f15a0a;"></i> LAMPUTOGEL
+        </span>
+        <span style="background: #fceae0; padding: 4px 18px; border-radius: 60px; font-weight: 600;">
+          <i class="fas fa-flag-checkered" style="color: #e35f0a;"></i> Togel HK
+        </span>
+        <span style="background: #fceae0; padding: 4px 18px; border-radius: 60px; font-weight: 600;">
+          <i class="fas fa-flag" style="color: #e35f0a;"></i> Togel SYD
+        </span>
+      </div>
+      <small>© 2026 LAMPUTOGEL. Bandar Togel Online Terpercaya. 18+</small>
+      <small style="margin-top: 6px;"> <i class="fas fa-shield" style="color: #e35f0a;"></i> Pastikan Anda menggunakan link resmi untuk keamanan akun.</small>
+    </footer>
+  </div>
+
+  <!-- SCRIPT (optional) -->
+  <script>
+    (function() {
+      // Menambahkan sedikit efek smooth ke link
+      const links = document.querySelectorAll('a[href^="#"]');
+      links.forEach(link => {
+        link.addEventListener('click', function(e) {
+          const targetId = this.getAttribute('href');
+          if (targetId === "#") return;
+          const targetEl = document.querySelector(targetId);
+          if (targetEl) {
+            e.preventDefault();
+            targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
